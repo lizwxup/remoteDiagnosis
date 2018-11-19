@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=zheshi">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    这是加载顺序
+        <script src="./js.js"></script>
+       swsw
+        <script>
+            $.cookie('the_cookie', '22222',{ expires: 7, path: '/', secure: false });
+           //$.cookie('userId',4)
+            console.log($.cookie('the_cookie'))
+        </script>
+</body>
+</html>
